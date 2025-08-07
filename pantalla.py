@@ -10,8 +10,6 @@ pygame.display.set_caption("Juego de Mario")
 clock = pygame.time.Clock()
 FPS = 60
 
-""" ancho_personaje = 25
-altura_personaje = (ancho_personaje * 1.667) """
 personaje = pygame.image.load("recursos/policia_frente.png").convert_alpha()
 personaje = pygame.transform.scale(personaje, (100, 100))
 personaje_x = int(0.02 * WIDTH)
